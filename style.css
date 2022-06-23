@@ -1,0 +1,85 @@
+ *,
+ body {
+     padding: 0;
+     margin: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: hsl(216, 12%, 8%);
+     font-family: 'Overpass', sans-serif;
+ }
+
+ .wrapper {
+     background-color: hsl(213, 20%, 18%, 0.427);
+     width: 400px;
+     margin: auto;
+     padding: 35px;
+     border-radius: 30px;
+    transform: translateY(50%); 
+ }
+
+ h1 {
+     margin: 15px 0;
+     color: hsl(0, 0%, 100%);
+ }
+
+ .first img {
+     padding: 20px;
+     border-radius: 50%;
+     background-color: hsl(213, 19%, 18%);
+ }
+
+ p {
+     color: hsl(216, 12%, 54%);
+ }
+
+ .num-column {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     margin: 20px 0;
+ }
+
+ .num {
+     background-color: hsl(213, 19%, 18%);
+     color: hsl(216, 12%, 54%);
+     padding: 12px 16px;
+     border-radius: 50%;
+ }
+
+ .num:hover,
+ .active{
+     background-color: hsl(25, 97%, 53%);
+     color: hsl(0, 0%, 100%);
+ } 
+
+ .Submit {
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0 0;
+     border-radius: 30px;
+     color: hsl(0, 0%, 100%);
+     background-color: hsl(25, 97%, 53%);
+ }
+
+ .Submit:hover {
+     background-color: hsl(0, 0%, 100%);
+     color: hsl(25, 97%, 53%)
+ }
+
+ .second {
+     display: none;
+     text-align: center;
+ }
+
+ .second img {
+     margin: 0 0 20px;
+ } 
+ .score {
+     border-radius: 20px;
+     color: hsl(25, 97%, 53%);
+     padding: 10px 0;
+     background-color: hsl(213, 19%, 18%);
+ }
